@@ -33,10 +33,10 @@ __has_include(<webp/demux.h>)  && __has_include(<webp/mux.h>)
 #elif __has_include("webp/decode.h") && __has_include("webp/encode.h") && \
 __has_include("webp/demux.h")  && __has_include("webp/mux.h")
 #define YYIMAGE_WEBP_ENABLED 1
-#import "webp/decode.h"
-#import "webp/encode.h"
-#import "webp/demux.h"
-#import "webp/mux.h"
+#import "libwebp/decode.h"
+#import "libwebp/encode.h"
+#import "libwebp/demux.h"
+#import "libwebp/mux.h"
 #else
 #define YYIMAGE_WEBP_ENABLED 0
 #endif

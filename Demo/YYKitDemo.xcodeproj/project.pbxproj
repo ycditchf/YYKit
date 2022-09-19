@@ -95,7 +95,6 @@
 		D9971BB51B85023300A7B424 /* EmoticonWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9971BB31B85023300A7B424 /* EmoticonWeibo.bundle */; };
 		D9971BB61B85023300A7B424 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9971BB41B85023300A7B424 /* EmoticonQQ.bundle */; };
 		D9B25F9D1BEE79280038C00A /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B25F9B1BEE79280038C00A /* bpg.framework */; };
-		D9B25F9E1BEE79280038C00A /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B25F9C1BEE79280038C00A /* WebP.framework */; };
 		D9B260501BEE79370038C00A /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B25FA31BEE79370038C00A /* NSArray+YYAdd.m */; };
 		D9B260511BEE79370038C00A /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B25FA51BEE79370038C00A /* NSBundle+YYAdd.m */; };
 		D9B260521BEE79370038C00A /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B25FA71BEE79370038C00A /* NSData+YYAdd.m */; };
@@ -329,7 +328,6 @@
 		D9971BB31B85023300A7B424 /* EmoticonWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonWeibo.bundle; sourceTree = "<group>"; };
 		D9971BB41B85023300A7B424 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
 		D9B25F9B1BEE79280038C00A /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bpg.framework; path = ../Vendor/bpg.framework; sourceTree = "<group>"; };
-		D9B25F9C1BEE79280038C00A /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = ../Vendor/WebP.framework; sourceTree = "<group>"; };
 		D9B25FA21BEE79370038C00A /* NSArray+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		D9B25FA31BEE79370038C00A /* NSArray+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YYAdd.m"; sourceTree = "<group>"; };
 		D9B25FA41BEE79370038C00A /* NSBundle+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+YYAdd.h"; sourceTree = "<group>"; };
@@ -520,7 +518,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B25F9E1BEE79280038C00A /* WebP.framework in Frameworks */,
 				D9B25F9D1BEE79280038C00A /* bpg.framework in Frameworks */,
 				D9700D9E1BC7D44B00F878A4 /* libsqlite3.tbd in Frameworks */,
 				D9700D9C1BC7D44500F878A4 /* libz.tbd in Frameworks */,
@@ -823,7 +820,6 @@
 			isa = PBXGroup;
 			children = (
 				D9B25F9B1BEE79280038C00A /* bpg.framework */,
-				D9B25F9C1BEE79280038C00A /* WebP.framework */,
 				D9700D9D1BC7D44B00F878A4 /* libsqlite3.tbd */,
 				D9700D9B1BC7D44500F878A4 /* libz.tbd */,
 				D9B263B81BEF66010038C00A /* MobileCoreServices.framework */,
@@ -1499,7 +1495,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.YYKitDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYKitDemo;
 				PRODUCT_NAME = YYKitDemo;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1527,7 +1523,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.YYKitDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYKitDemo;
 				PRODUCT_NAME = YYKitDemo;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
